@@ -1,0 +1,28 @@
+GET http://localhost:3000/customers
+
+###
+GET http://localhost:3000/customers/61f5ee8a9a4ca3b58f62d767
+
+####
+POST http://localhost:3000/customers/
+Content-Type: application/json
+
+{
+    "name":"Manuel",
+    "phone":"81818181",
+    "email":"manuel@gmail.com"
+}
+
+###
+DELETE http://localhost:3000/customers/61f5ee8a9a4ca3b58f62d767
+
+
+####
+PATCH http://localhost:3000/customers/61f5ef0dd061c3a04251d473
+Content-Type: application/json
+
+{
+    "name":"Pedro",
+    "phone":"81818181",
+    "email":"pedro@gmail.com"
+}
